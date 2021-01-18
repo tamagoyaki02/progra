@@ -1,69 +1,115 @@
 <!DOCTYPE html>
 <html lang="ja">
 <head>
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta charset="UTF-8">
+  <title>ProGra</title>
+  <meta name="description" content="プログラミング学習サイト ProGra">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>One-Section-Cording</title>
-  <link rel="stylesheet" href="css/styles.css">
   <link rel="stylesheet" href="css/reset.css">
+  <link rel="stylesheet" href="css/style.css">
+  <link rel="shortcut icon" href="favicon.ico">
+  <!-- 独自のモバイルアプリっぽい表示にできるプロパティ。不安なら使わないのが吉 -->
+  <!-- <meta name="mobile-web-app-capable" content="yes"> -->
+  <link rel="icon" sizes="196x196" href="android.png">
+  <link rel="apple-touch-icon" sizes="152x152" href="iphone.png">
   <script src="js/jquery-1.10.2.min.js" type="text/javascript" charset="utf-8"></script>
-  <link rel="icon" href="favicon.ico">
+  <script src="js/common.js" type="text/javascript"></script>
 </head>
 <body>
-
-
-  <div class="section s_04">
-
-    <!-- 2月用にコメントアウト -->
-    <!-- <div class="accordion_one">
-      <div class="accordion_header stay">2021年2月<div class="i_box"><i class="one_i"></i></div>
+  <header class="header">
+    <div class="header-inner inner">
+      <div class="header-left">
+        <h1 class="header-tit">ProGra</h1>
+        <p class="header-txt">プログラミングで人生を変えよう</p>
+        <p class="btn header-btn"><a href="">資料請求はこちら</a></p>
       </div>
-      <div class="accordion_inner stay">
-        <table class="tbl-r02">
-          <tr>
-            <th>5.flexboxでheader作成</th>
-            <td><a href="https://tamagoyaki02.github.io/tab-menu/" target="_blank">https://tamagoyaki02.github.io/tab-menu/</a></td>
-            <td>1月11日</td>
-          </tr>
-          <tr>
-            <th>5.flexboxでheader作成</th>
-            <td><a href="https://tamagoyaki02.github.io/tab-menu/" target="_blank">https://tamagoyaki02.github.io/tab-menu/</a></td>
-            <td>1月12日</td>
-          </tr>
-        </table>
-      </div>
-    </div> -->
-
-    <!-- 1月 -->
-    <div class="accordion_one">
-      <div class="accordion_header stay">2021年1月<div class="i_box"><i class="one_i"></i></div>
-      </div>
-      <div class="accordion_inner stay">
-        <table class="tbl-r02">
-          <tr>
-            <th>5.flexboxでheader作成</th>
-            <td><a href="https://tamagoyaki02.github.io/tab-menu/" target="_blank">https://tamagoyaki02.github.io/tab-menu/</a></td>
-            <td>1月11日</td>
-          </tr>
-          <tr>
-            <th>5.flexboxでheader作成</th>
-            <td><a href="https://tamagoyaki02.github.io/tab-menu/" target="_blank">https://tamagoyaki02.github.io/tab-menu/</a></td>
-            <td>1月12日</td>
-          </tr>
-          <tr class="last">
-            <th>5.flexboxでheader作成</th>
-            <td><a href="https://tamagoyaki02.github.io/tab-menu/" target="_blank">https://tamagoyaki02.github.io/tab-menu/</a></td>
-            <td>1月13日</td>
-          </tr>
-        </table>
+      <div class="header-right">
+        <figure class="header-pic"><img src="images/top.png" alt=""></figure>
       </div>
     </div>
-    <!-- 1月 -->
+  </header>
 
+  <section class="features">
+    <div class="features-inner inner">
+      <h2 class="features-tit">ProGra３つの特徴</h2>
+      <div class="features-flex">
+        <div class="_box">
+          <div class="features-images">
+            <figure class="features-pic"><img src="images/feature1.png" alt=""></figure>
+          </div>
+          <div class="features-info">
+            <h3 class="features-tit_3">現役プログラマと1対1</h3>
+            <p class="features-txt">通常、プログラミングスクールは講師1人に対して生徒が複数人が当たり前。しかしProGraでは、現場で現役バリバリのプログラマから1対1で教えてもらえます。</p>
+          </div>
+        </div>
+        <div class="_box">
+          <div class="features-images">
+            <figure class="features-pic"><img src="images/feature2.png" alt=""></figure>
+          </div>
+          <div class="features-info">
+            <h3 class="features-tit_3">実際のプロジェクトを体感できる</h3>
+            <p class="features-txt">ProGraでは、実際のプロジェクトに沿った「仕事」を体感していただきます。他にはない、リアルな作業を課題として進めていきます。</p>
+          </div>
+        </div>
+        <div class="_box">
+          <div class="features-images">
+            <figure class="features-pic"><img src="images/feature3.png" alt=""></figure>
+          </div>
+          <div class="features-info">
+            <h3 class="features-tit_3">就職に失敗したら全額返金</h3>
+            <p class="features-txt">当社には、提携するIT企業が複数あります。就職活動の際はできるかぎり多くの企業にて面接の機会をつくらせていただきます。</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
 
-    <p class="_a"><a href="https://wp-customize.com/" target="_blank" class="link">View the blog</a></p>
-  </div>
+  <section class="member">
+    <div class="member-inner inner">
+      <h2 class="member-tit">講師紹介</h2>
+      <p class="member-txt">現場で活躍中の講師たちです! リアルな声を届けます</p>
+      <div class="member-flex">
+        <div class="member-box">
+          <figure class="member-pic"><img src="images/member1.png" alt=""></figure>
+          <div class="member-card">
+            <h3 class="member-name">パトリック・チャン</h3>
+            <p class="member-desp">元フィギュアスケーターのエンジニアとして活躍。教える時はフィギュアスケートあるあるを挟みながら小粋なトークでオモシロおかしく講義してくれる。</p>
+          </div>
+        </div>
+        <div class="member-box">
+          <figure class="member-pic"><img src="images/member2.png" alt=""></figure>
+          <div class="member-card">
+            <h3 class="member-name">ダニエル</h3>
+            <p class="member-desp">元自動車整備士で、現在はプログラマとして活躍。教える時は自動車整備士あるあるを挟みながら小粋なトークでオモシロおかしく講義してくれる。</p>
+          </div>
+        </div>
+        <div class="member-box">
+          <figure class="member-pic"><img src="images/member3.png" alt=""></figure>
+          <div class="member-card">
+            <h3 class="member-name">山中さん</h3>
+            <p class="member-desp">元テクニカルエンゲージプロ。現在は実家のみかん農家で跡継ぎとして活躍。おいしいみかんを作れたときは、段ボールいっぱいのみかんを差し入れしてくれる。</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
 
-  <script src="js/main.js"></script>
+  <section class="download">
+    <div class="donwload-inner inner">
+      <h2 class="download-tit">いますぐ資料請求</h2>
+      <p class="download-btn"><a href="">資料請求はこちら</a></p>
+
+    </div>
+  </section>
+
+  <footer class="footer">
+    <div class="footer-inner inner">
+      (c) ProGra
+
+    </div>
+  </footer>
+
+  <script src="js/common.js"></script>
 </body>
 </html>
