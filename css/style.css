@@ -50,6 +50,36 @@ a:visited {
 }
 
 /* ----------------------------------------------
+ scroll
+-------------------------------------------------*/
+.floating {
+  display: none;
+  position: fixed;
+  right: 8px;
+  bottom: 8px;
+}
+
+.floating a {
+  display: block;
+  color: #fff;
+  background: #000;
+  width: 5rem;
+  height: 5rem;
+  text-align: center;
+  line-height: 5rem;
+  font-size: 3rem;
+  font-weight: bold;
+  text-decoration: none;
+  opacity: 0.6;
+  -webkit-transition: 0.3s;
+  transition: 0.3s;
+}
+
+.floating a:hover {
+  opacity: 1;
+}
+
+/* ----------------------------------------------
  header
 -------------------------------------------------*/
 .header {
@@ -335,6 +365,14 @@ download_pc
   .download-tit {
     margin: 2rem 0 4rem;
     font-size: 3rem;
+  }
+  /* ----------------------------------------------
+ scroll
+-------------------------------------------------*/
+  .floating {
+    position: fixed;
+    right: 0px;
+    bottom: 96px;
   }
 }
 /*# sourceMappingURL=style.css.map */
